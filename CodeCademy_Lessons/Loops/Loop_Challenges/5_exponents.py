@@ -15,5 +15,4 @@ def exponents(bases, powers):
 
     answers = []
 
-
-return answers
+    return answers
