@@ -1,4 +1,4 @@
-    """take 2 names as strings and identify if they are the same
+"""take 2 names as strings and identify if they are the same
     """
 
 
@@ -12,7 +12,8 @@ def same_name(your_name, my_name):
     Returns:
         boolean: true if names are the same
     """
-  if (your_name == my_name):
-    return True
-  else:
-    return False
+
+    if (your_name == my_name):
+        return True
+    else:
+        return False
