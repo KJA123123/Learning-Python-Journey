@@ -8,6 +8,9 @@
 
 
 class ClassSchedule:
+    """_Class Schedule
+    """
+
     def __init__(self, course):
         self.course = course
 

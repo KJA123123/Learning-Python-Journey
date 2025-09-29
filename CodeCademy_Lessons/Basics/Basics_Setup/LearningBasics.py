@@ -4,17 +4,13 @@
 
 if __name__ == '__getting_a_user_input___':
 
-
-def main():
-    print('This line is printed directly from the main function of the program')
-    secondary_function()
+    def Main():
+        print('This line is printed directly from the main function of the program')
+        secondary_function()
 
 
 def secondary_function():
     print('This line is printed from a secondary function call within the main function')
-
-
-getting_a_user_input()
 
 
 def getting_a_user_input():
@@ -33,6 +29,10 @@ def getting_a_user_input():
 
     print('Very nice to meet you! My name is ' +
           name + ' and I am ' + age + ' years old')
+
+
+# This now works, altho the output is a bit janky.  Input taken from the terminal.
+getting_a_user_input()
 
 
 def declaringVairables():
@@ -73,6 +73,6 @@ def Operators():
     print()
 
     print('Examples of Assignments')
-    print('x/=4, x =', x /= 4)
+    print('x/=4, x =', x / 4)
     print('x*=4, x =', x*4)
     print('x == 5, x now =', x == 5)
