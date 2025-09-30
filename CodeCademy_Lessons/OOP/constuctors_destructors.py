@@ -15,6 +15,7 @@ class ClassSchedule:
         self.course = course
 
 # calling itself using self.
+# Note more research needed as pylance is not happy :(
 
     first = ClassSchedule('Chemistry')
     print(first.course)
